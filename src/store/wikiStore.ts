@@ -26,6 +26,7 @@ const useWikiStore = create<WikiStore>((set) => ({
             set({ loading: true, error: null })
             const res = await axios.get(url, {
                 headers: {
+                    // Use the api key that i sent you :)
                     Authorization: `Bearer ${process.env.REACT_APP_API_KEY}`,
                 },
             })
