@@ -1,0 +1,10 @@
+.EventItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 50vw;
+    overflow: hidden;
+}
+.year {
+    color: #a7a7a7;
+}
